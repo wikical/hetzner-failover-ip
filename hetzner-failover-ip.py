@@ -3,6 +3,7 @@
 # LICENSE: AGPLv3
 
 from __future__ import print_function
+# portable way of getting the file name, see http://stackoverflow.com/a/13240524
 import __main__ as main
 import simplejson as json, base64, urllib2, sys, urllib, os
 from optparse import OptionParser
